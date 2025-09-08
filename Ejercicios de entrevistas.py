@@ -65,3 +65,15 @@ print (numeromayor3)
  
 
 print ("===============================================================")
+
+#3.Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario devuelve False.
+
+caracter =  (input ("Escribe una vocal: "))
+caracter = caracter.lower()
+print (caracter)
+
+vocales = ["a","e","i","o","u"]
+
+for mapa in vocales:
+    if mapa == caracter:
+        print ("true")
