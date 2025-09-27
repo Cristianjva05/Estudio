@@ -65,3 +65,18 @@ print (numeromayor3)
  
 
 print ("===============================================================")
+
+#3.Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario devuelve False.
+print ("===============================================================")
+def vocal(digitevocal):
+    if digitevocal in "aeiou":
+        return True
+    else:
+        return False
+    
+digitevocal = input ("escribe una vocal: ")
+digitevocal = digitevocal.lower()
+print (digitevocal)
+print (vocal (digitevocal))
+# print ("===============================================================")
+
